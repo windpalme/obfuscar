@@ -4,3 +4,4 @@ before_build:
 - git submodule update --init --recursive
 build_script:
 - dist.pack.bat
+test: off
