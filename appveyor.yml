@@ -6,4 +6,4 @@ build_script:
 - dist.pack.bat
 test: off
 artifacts:
-  - path: bin\*
+  - path: *\bin\*
