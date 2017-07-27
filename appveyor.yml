@@ -6,4 +6,5 @@ build_script:
 - dist.pack.bat
 test: off
 artifacts:
-  - path: **\bin\*
+  - path: bin\Release\*.dll
+  - path: bin\Release\*.exe
