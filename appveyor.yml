@@ -5,3 +5,5 @@ before_build:
 build_script:
 - dist.pack.bat
 test: off
+artifacts:
+  - path: obfuscar\bin\*
